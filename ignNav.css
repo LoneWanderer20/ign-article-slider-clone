@@ -1,0 +1,161 @@
+@charset "utf-8";
+@import url("resetCSS.css");
+/* CSS Document */
+
+/* 
+* 1. navCont styles
+** 2. Placeholder titles styles
+*** 3. Progress bars styles
+**** 4. Content styles
+***** 5. Image styles
+*/
+
+/******************************** 1 *****************************/
+
+.navContStruc2 {
+	width: 974px;
+	height: 330px;
+	border: 1px solid #000;
+	padding: 10px 0px 0px 12px;
+	position: relative;
+	margin: 50px auto 100px auto;	
+	background-color: #fff;
+}
+
+/******************************** 2 *****************************/
+
+.ul1Struc2 {
+	width: 100%;
+}
+.navTitlesStruc {
+	width: 191px;
+	height: 33px;
+	margin: 0px 1px 0px 1px;
+	padding-top: 15px;
+	float: left;
+	text-align: center;
+}
+.navTitlesSty {
+	background-color: #F3F3F3;
+    position: relative;
+	list-style: none;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 0.8em;
+	font-weight: 600;
+}
+.ul1Struc2>li:first-child {
+	margin-left: 0px;
+}
+/******************************** 3 *****************************/
+
+.progDiv1Struc {
+	width: 0px;
+	height: 7px;
+	position: relative;
+	top: 48px;
+	z-index: 1;
+}
+.progDiv1Sty {
+	background-color: #0000FF;
+}
+.progDiv2Struc {
+	width: 0px;
+	height: 7px;
+	position: absolute;
+	top: 58px;
+	z-index: 2;
+}
+.progDiv2Sty {
+	background-color: #FF0000;
+}
+
+/******************************** 4 *****************************/
+
+.divContStruc {
+	width: 961px;
+	height: 264px;
+	position: relative;
+	top: 41px;
+	margin: 0px 10px 10px 0px;
+}
+.divContSty {
+	border-top: 7px solid #A9A9A9;
+}
+.divContStruc>div {
+	width: 961px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+/*#divCont>div>img~div * to use when span replaced with img */
+.div1Struc {
+	width: 308px;
+	height: 264px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.div1Sty {
+	background-color: #000;
+}
+.h2Struc {
+	width: 230px;
+	height: auto;
+	position: relative;
+	margin: 30px 40px 0px 40px;
+}
+.h2Sty {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 1.3em;
+	font-weight: 900;
+	line-height: 25px;
+	color: #F3F3F3;
+}
+.pStruc {
+	width: 230px;
+	height: auto;
+	position: relative;
+	margin: 5px 40px 0px 40px;
+}
+.pSty {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 0.8em;
+	color: #F3F3F3;
+}
+
+/******************************** 5 *****************************/
+
+.navImages {
+	width: 653px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+#imgDiv1 {
+	height: 264px;
+	background-color: #FF0000;/*remove when image added*/
+}
+/*Use when images added
+#imgDiv2,#imgDiv3,#imgDiv4,#imgDiv5 {
+	height: 0;
+}
+*/
+
+/*Delete the folowing when images added*/
+#imgDiv2 {
+	height: 0;
+	background-color: #800080;/*remove when image added*/
+}
+#imgDiv3 {
+	height: 0;
+	background-color: #FFFF00;
+}
+#imgDiv4 {
+	height: 0;
+	background-color: #008000;
+}
+#imgDiv5 {
+	height: 0;
+	background-color: #0000FF;
+}
